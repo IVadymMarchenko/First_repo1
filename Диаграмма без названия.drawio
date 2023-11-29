@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-29T20:08:05.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="I96Mu2mV220pYuD2IyIr" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-29T20:19:45.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="0tR0_e1PTtQZwZNDcC72" version="22.1.4" type="github">
   <diagram name="Страница — 1" id="X3VeIbHIuKRe2wRQN4YN">
     <mxGraphModel dx="1393" dy="1935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -59,7 +59,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dScdEsddfQJycuSrdLZz-21" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="dScdEsddfQJycuSrdLZz-20" connectable="0" vertex="1">
+        <mxCell id="dScdEsddfQJycuSrdLZz-21" value="" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="dScdEsddfQJycuSrdLZz-20" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dScdEsddfQJycuSrdLZz-22" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
@@ -69,7 +69,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dScdEsddfQJycuSrdLZz-24" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt; AddressBook&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;- data: Dict[str, Record]&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ add_contacts(name:str,Phone(phone),&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;birthday(Birthday)): void&lt;br&gt;+ delete(name): void&amp;nbsp;&lt;br&gt;+ display_all_contacts(note:int): void&lt;br&gt;+ iterator(note: int): Generator[str]&lt;br&gt;+ save_to_file(file_name:str): void&lt;br&gt;+ read_from_file(file_name:str): void&lt;br&gt;+ search_contact(something:str): void&lt;br&gt;+ days_to_birthday(name): Record&lt;br&gt;+ display_part_contacts(note): void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="660" y="585" width="220" height="270" as="geometry" />
+          <mxGeometry x="680" y="500" width="220" height="270" as="geometry" />
         </mxCell>
         <mxCell id="D8KGjn5NtqB0nxPr30d0-18" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -102,8 +102,14 @@
             <mxPoint x="310" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="D8KGjn5NtqB0nxPr30d0-26" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="D8KGjn5NtqB0nxPr30d0-25" connectable="0" vertex="1">
+        <mxCell id="D8KGjn5NtqB0nxPr30d0-26" value="" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="D8KGjn5NtqB0nxPr30d0-25" connectable="0" vertex="1">
           <mxGeometry x="1" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="meu6wXCwKkjSk_sux5sU-2" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.99;entryY=0.395;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.009;exitY=0.148;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dScdEsddfQJycuSrdLZz-24" target="sjK6yC8xb2U0CJzyWR12-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="540" as="sourcePoint" />
+            <mxPoint x="570" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
